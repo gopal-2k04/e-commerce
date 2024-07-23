@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="header">
+        <p class="logo">Care</p>
+        <div>
+            <ul class="navbar">
+                <li><a href="web.html">Home</a></li>
+                <li><a class="active" href="shope.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" id="prevent">🛒</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="prodetails">
+        <div class="single-pro-image">
+            <img src="s1.png" id="MainImg" alt="" width="100%" height="90%">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="s1.png" alt="" width="100%" height="100%" class="smallImg">
+                </div>
+                <div class="small-img-col">
+                    <img src="s5.png" alt="" width="100%" height="100%" class="smallImg">
+                </div>
+                <div class="small-img-col">
+                    <img src="s3.png" alt="" width="100%" height="100%" class="smallImg">
+                </div>
+                <div class="small-img-col">
+                    <img src="s4.png" alt="" width="100%" height="100%" class="smallImg">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6 id="see">Home / T - Shirt</h6>
+            <h4>Men's Fashion T Shirt</h4>
+            <h2 id="seee">$123.00</h2>
+            <select id="productSize" class="product-size">
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" id="productQuantity" value="1" min="1">
+            <button class="normal" onclick="addToCart()">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae temporibus magnam fugiat quaerat a cupiditate sint at ducimus sunt magni odio perferendis, dolorem doloremque eaque laudantium cumque repellat quibusdam placeat.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2><u>New Arrivals</u></h2>
+        <p>"Summer Collection New Morden Design "</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="s1.png" alt="Product 1">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s3.png" alt="Product 2">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s4.png" alt="Product 3">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s5.png" alt="Product 4">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s6.jpg" alt="Product 5">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s7.png" alt="Product 6">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s8.jpg" alt="Product 7">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="s9.png" alt="Product 8">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            
+            <div class="pro">
+                <img src="s8.jpg" alt="Product 7">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            
+            <div class="pro">
+                <img src="s8.jpg" alt="Product 7">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            
+            <div class="pro">
+                <img src="s8.jpg" alt="Product 7">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            
+            <div class="pro">
+                <img src="s8.jpg" alt="Product 7">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            
+            <div class="pro">
+                <img src="s8.jpg" alt="Product 7">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+
+            
+
+            <div class="pro">
+                <img src="s10.jpg" alt="Product 9">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut shirt</h5>
+                    <div class="star">
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                        <i>⭐</i>
+                    </div>
+                    <h4>$100</h4>
+                    <a href="#"><i>🛒</i></a>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </section>
+
+    <section id="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">=></a>
+    </section>
+    
+    <section id="newsletter">
+        <div class="newtext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail Updates about Our Latest Shop And <samp style="color: rgb(199, 169, 3);">Special Offer.</samp></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button>sign up</button>
+        </div>
+
+    </section>
+
+
+    <section class="gopal">
+
+        <div class="col">
+            <p class="logo">Care</p>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 nagar manner kuddio,kalakurichi</p>
+            <p><strong>Phone:</strong> 91+8015148588/(+91) 8973508174</p>
+            <p><strong>Hours:</strong>10:00 - 5:00,mon - sat</p>
+
+            <div class="colfollow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#"> Delivery Information</a>
+            <a href="#"> Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>MY Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">MY Wishlist</a>
+            <a href="#">Track my order<a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="install">
+            <h4>Install App</h4>
+            <p>From App Store Or Goople PLay</p>
+            <div class="row">
+                <img src="appal.svg" alt="">
+                <img src="google.png" alt="">
+            </div>
+            <p>Secured payment gateways</p>
+            <img src="cards.png" alt="">
+        
+    </section>
+    <script src="script.js"></script>
+
+    
+
+
+</body>
+</html>
