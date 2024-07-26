@@ -61,9 +61,9 @@ body {
 #hero {
     height: 90vh;
     width: 100%;
-    background-image: url('depositphotos_1548143-stock-photo-happy-cute-young-woman-shopping.jpg');
-    background-size: 700px 900px;
-    background-position: right;
+    background-image: url('new\ home\ img.webp');
+    background-size: 700px 800px;
+    background-position:right;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -931,7 +931,7 @@ z-index: -1;
     #hero {
         padding: 20px;
         background-size: cover;
-        background-position: center;
+        background-position: top;
     }
 
     #hero h4, #hero h2, #hero h1, #hero p, #hero button {
